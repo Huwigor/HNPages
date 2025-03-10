@@ -1,0 +1,21 @@
+
+#footer{
+    background-color: aliceblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    min-width: 100%;
+    margin-top: 50px;
+}
+#footer p{
+    font-size: 12px;
+    color: black;
+}
+.box-icon-footer{
+    margin-left: 22vw;
+    margin-bottom: 30px;
+}
+.icon-footer{
+    height: 30px;
+    margin: 10px;
+}

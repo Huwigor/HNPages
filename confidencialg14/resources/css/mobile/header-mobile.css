@@ -1,0 +1,25 @@
+
+.header{
+    position: relative;
+    top: 0;
+    padding: 10px; 
+    min-width: 100%;
+    z-index: 5;
+    background-color: aliceblue;
+}
+.navbar-brand{
+    margin-left: 35vw;
+    margin-top: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    color: #35363e ;
+}
+.icon-logo{
+    height: 25px;
+    position: relative;
+    bottom: 3px;
+    margin-left: 5px;
+}
+
+

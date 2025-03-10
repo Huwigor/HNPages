@@ -1,0 +1,165 @@
+@import url(https://fonts.bunny.net/css?family=abel:400|acme:400|aladin:400);
+
+body{
+    margin: 0;
+}
+
+.google-login-btn {
+    background-color: aliceblue;
+    color: black;
+    width: 90%;
+    margin-bottom: 2vh;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Remove sublinhado do link */
+}
+
+.google-login-btn:hover {
+    background-color: #a6cbf0;
+}
+
+.google-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#form-create-user{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    position: relative;
+}
+.box-requisitos{
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    margin-top: 8vh;
+    width: 90%;
+    padding: 10px;
+    top: 1vh;
+}
+.box-requisitos p{
+    width: 100%;
+    font-size: 13px;
+}
+.box-inputs{
+    min-width: 100%;
+    position: relative;
+}
+.box-inputs label{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 25px;
+    color: rgb(78, 77, 77);
+}
+.inputs{
+    width: 100%;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: rgb(255, 252, 252) ;
+    color: rgb(78, 77, 77);
+}
+.labels{
+    position: relative;
+}
+.box-inputs input::placeholder{
+    color: rgb(109, 108, 108);
+}
+.erros-input{
+    transition: opacity 0.5s ease-in-out;
+    font-size: 12px;
+    color: red;
+}
+.error-icon{
+    opacity: 0;
+    margin-top: 28px;
+    margin-left: 5px;
+    height: 15px;
+    transition: opacity 0.5s ease-in-out;
+}
+.error-icon-active{
+    opacity: 1;
+}
+.erros-input{
+    display: none;
+    position: relative;
+    top: 25px;
+   margin-left: 5px;
+   font-size: 12px;
+}
+.border-red{
+    border: 1px solid red;
+}
+.box-inputs input:focus{
+    outline: none;
+}
+.inputs-hidden-pass1{
+    position: relative;
+    width: 100%;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px 40px 10px 10px;
+    font-size: 14px;
+    background-color: rgb(255, 252, 252) ;
+    color: rgb(78, 77, 77);
+    z-index: 30;
+}
+.inputs-hidden-pass2{
+    position: relative;
+    width: 100%;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px 40px 10px 10px;
+    font-size: 14px;
+    background-color: rgb(255, 252, 252) ;
+    color: rgb(78, 77, 77);
+    z-index: 30;
+}
+.pass-hidden{
+    position: absolute;
+    z-index: 40;
+    right: 0;
+    bottom: 8px;
+    right: 10px;
+    height: 20px;
+}
+.hidden-eye{
+    display: none;
+}
+#erro-create-user{
+    position: absolute;
+    top: 69vh;
+    left: 23vw;
+    font-weight: bold;
+    font-size: 14px;
+    color: red;
+}
+.btn-cad{
+    margin-top: 7vh;
+    width: 60vw;
+}
+.box-link{
+    min-width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.span-link{
+    font-size: 14px;
+    max-width: 90%;
+    margin-left: 15vw;
+    margin-top: 20px; 
+}

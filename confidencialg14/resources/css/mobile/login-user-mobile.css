@@ -1,0 +1,90 @@
+@import url(https://fonts.bunny.net/css?family=abel:400|acme:400|aladin:400);
+#form-login{
+    position: relative;
+    width: 90%;
+    background-color: aliceblue;
+    padding: 20px;
+    margin-top: 10vh;
+    padding-bottom: 40px;
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+}
+.label-login{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+    color: rgb(78, 77, 77);
+}
+.input-login{
+    width: 100%;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px !important;
+    padding: 10px 40px 10px 10px;
+    font-size: 14px;
+    background-color: rgb(255, 252, 252) ;
+    color: rgb(78, 77, 77);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.input-login:focus{
+    outline: none;
+  box-shadow: 0px 0px 5px 1px rgba(156, 156, 218, 0.6);
+}
+.box-password{
+    position: relative;
+}
+.pass-hidden{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 20px;
+}
+.hidden-eye{
+    display: none;
+}
+#erro-login-user{
+    position: absolute;
+    left: 15vw;
+    font-size: 13px;
+   color: red;
+   
+}
+.error-icon{
+    display: none;
+    left: 7vw;
+    height: 20px;
+    position: absolute;
+}
+.btn-entrar{
+    width: 50%;
+    margin-left: 20vw;
+    margin-top: 5vh;
+    padding: 5px;
+}
+.google-login-btn {
+    background-color: rgb(213, 228, 240);
+    color: rgb(78, 77, 77);
+    width: 90%;
+    margin-top: 5vh;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Remove sublinhado do link */
+}
+
+.google-login-btn:hover {
+    background-color: #a6cbf0;
+}
+
+.google-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
