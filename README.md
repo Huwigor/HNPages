@@ -1,10 +1,10 @@
-## HNPages
-# O que é o HNPages? Seria um criador de páginas web que permite após a criação, realizar a hospedagem da página no servidor com seu próprio domínio..
+# HNPages
+## O que é o HNPages? Seria um criador de páginas web que permite após a criação, realizar a hospedagem da página no servidor com seu próprio domínio..
 
-## LINGUAGENS E FRAMEWORKS
-# JS / VUEJS
-# PHP / LARAVEL
-# BANCO DE DADOS MYSQL
+# LINGUAGENS E FRAMEWORKS
+## JS / VUEJS
+## PHP / LARAVEL
+## BANCO DE DADOS MYSQL
 
 
 ## INTERFACE HOME
