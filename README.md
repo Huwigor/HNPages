@@ -16,8 +16,10 @@ O que é o HNPages? Seria um criador de páginas web que permite após a criaç�
 
 ### INTERFACE LOGIN
 ![login](confidencialg14/public/prints-template/login-user.png)
+![login2](confidencialg14/public/prints-template/login-user2.png)
 
 ### INTERFACE REGISTRO
 
 ![registro1](confidencialg14/public/prints-template/user-register.png)
 ![registro2](confidencialg14/public/prints-template/user-register2.png)
+![registro3](confidencialg14/public/prints-template/user-register3.png)
